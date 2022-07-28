@@ -21,7 +21,8 @@ import { PostLIstComponent } from './post-list/post-list.component';
   declarations: [
     AppComponent,
     PostCreateComponent,
-    PostLIstComponent
+    PostLIstComponent,
+    HeaderComponent
 
   ],
   imports: [
@@ -33,7 +34,8 @@ import { PostLIstComponent } from './post-list/post-list.component';
     MatButtonModule,
     MatToolbarModule,
     MatExpansionModule,
-    HttpClientModule
+    HttpClientModule,
+
 
 
 
